@@ -1,5 +1,7 @@
 import 'package:clazzy/data/account.dart';
+import 'package:clazzy/data/timeline.dart';
 import 'package:clazzy/domain/repository/account.dart';
+import 'package:clazzy/domain/repository/timeline.dart';
 import 'package:clazzy/presentation/screen/main/main.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -13,6 +15,7 @@ class ClazzyApp extends StatelessWidget {
       providers: [
         Provider<AccountRepository>(create: (_) => DataAccountRepository()),
         Provider<AccountCache>(create: (_) => DataAccountCache()),
+        Provider<TimelineRepository>(create: (_) => DataTimelineRepository())
       ],
       child: MaterialApp(
         title: 'Clazzy',
