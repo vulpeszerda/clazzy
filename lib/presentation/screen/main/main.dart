@@ -1,7 +1,7 @@
-import 'package:clazzy/presentation/screen/myinfo/myinfo.dart';
-import 'package:clazzy/presentation/screen/notification/notification.dart';
-import 'package:clazzy/presentation/screen/search/search.dart';
-import 'package:clazzy/presentation/screen/timeline/timeline.dart';
+import 'package:clazzy/presentation/screen/myinfo/view.dart';
+import 'package:clazzy/presentation/screen/notification/view.dart';
+import 'package:clazzy/presentation/screen/search/view.dart';
+import 'package:clazzy/presentation/screen/timeline/view.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
